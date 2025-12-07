@@ -1,0 +1,47 @@
+# NAME: GlobalMedia CDN Acceleration
+# DESC: 仅包含主流海外媒体的静态资源与视频流域名 (CDN)，用于分流至高速节点(如香港)。
+# NOTE: 请将此规则集指向「香港/高速」节点，将主站域名指向「美国/原生」节点。
+# UPDATED: 2025-12-08
+
+# > YouTube (Video Stream & Thumbnails)
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,wide-youtube.l.google.com
+
+# > Twitter/X (Images & Videos)
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,periscope.tv
+
+# > Facebook & Instagram (Images & Videos)
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,fbstatic-a.akamaihd.net
+
+# > Snapchat (Media)
+DOMAIN-SUFFIX,sc-cdn.net
+DOMAIN-SUFFIX,snapchat.com
+
+# > Pinterest (Images)
+DOMAIN-SUFFIX,pinimg.com
+
+# > Reddit (Images & Videos)
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+
+# > Twitch (Video Stream only)
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,jtvnw.net
+
+# > LinkedIn (Media)
+DOMAIN-SUFFIX,licdn.com
+
+# > Spotify (Music Stream - Optional, usually safe for HK CDN)
+DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
+DOMAIN-SUFFIX,byspotify.com
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spotifycdn.com
